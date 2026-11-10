@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#f7f6f2" />
+  <meta name="description" content="Akshita Katyal — Computer Science student and software developer building full-stack, microservices and AI-powered applications." />
+  <title>Akshita Katyal — Software Developer & CS Student</title>
+  <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <div class="reading-progress" id="readingProgress" aria-hidden="true"></div>
+  <header class="site-header" id="top">
+    <div class="container nav-container">
+      <a class="logo" href="#home" aria-label="Akshita home"><span class="logo-box">A.</span><span>AKSHITA<span class="logo-period">.</span></span></a>
+      <button class="mobile-toggle" id="menuToggle" type="button" aria-label="Toggle navigation" aria-expanded="false" aria-controls="mainNav"><span></span><span></span><span></span></button>
+      <nav class="main-nav" id="mainNav" aria-label="Main navigation">
+        <a href="#home" class="nav-link active">HOME</a>
+        <a href="#about" class="nav-link">ABOUT ME</a>
+        <a href="#projects" class="nav-link">PROJECTS</a>
+        <a href="#journal" class="nav-link">MY BLOG</a>
+        <a href="#skills" class="nav-link">SKILLS</a>
+        <a href="#contact" class="nav-link">CONTACT</a>
+        <a href="#contact" class="nav-cta">LET'S TALK <span>↗</span></a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="homePage">
+    <section class="hero" id="home">
+      <div class="hero-grid container">
+        <div class="hero-copy">
+          <div class="eyebrow"><span class="eyebrow-line"></span> SOFTWARE ENGINEERING / PERSONAL JOURNAL</div>
+          <h1>HEY! I'M<br><span>AKSHITA.</span></h1>
+          <h2>I'M A <span id="typedRole">DEVELOPER</span><span class="cursor">_</span></h2>
+          <p>I build full-stack applications, explore AI and microservices, and love solving problems with clean code. Welcome to my projects and engineering journal.</p>
+          <div class="hero-actions"><a class="btn btn-primary" href="#journal">READ MY BLOG <span>↗</span></a><a class="btn btn-outline" href="#about">MORE ABOUT ME</a></div>
+          <div class="socials" aria-label="Social links"><a href="https://github.com/Akshita-0405" target="_blank" rel="noopener noreferrer" aria-label="GitHub">GH</a><a href="https://www.linkedin.com/in/akshita-katyal-401031291" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">in</a><a href="https://leetcode.com/u/Akshita_05/" target="_blank" rel="noopener noreferrer" aria-label="LeetCode">LC</a></div>
+        </div>
+        <div class="hero-art" aria-label="Portrait of Akshita Katyal">
+          <div class="hero-lines"></div><div class="orb orb-one"></div><div class="orb orb-two"></div>
+          <div class="portrait-clip"><img src="assets/akshita-profile.webp" alt="Akshita Katyal smiling" /></div>
+          <div class="tiny-cross">✦</div><div class="floating-label">CODE • AI • IDEAS</div>
+        </div>
+      </div>
+      <div class="hero-bottom container"><span>SCROLL TO EXPLORE</span><span class="scroll-arrow">↓</span><span>BUILDING, LEARNING, SHARING.</span></div>
+    </section>
+
+    <div class="ticker" aria-label="Areas of interest"><div class="container ticker-inner"><span>✺ &nbsp; FULL-STACK DEVELOPMENT</span><span>✳ &nbsp; AI / RAG</span><span>✺ &nbsp; JAVA & SPRING BOOT</span><span>✳ &nbsp; REACT & PYTHON</span><span>✺ &nbsp; PROBLEM SOLVING</span></div></div>
+
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="about-visual"><div class="about-picture"><img src="assets/akshita-profile.webp" alt="Portrait of Akshita Katyal" loading="lazy" /></div><div class="circle-decoration"></div><div class="about-badge">HELLO<br>WORLD! <span>✳</span></div></div>
+        <div class="about-copy"><p class="section-kicker">01 / ABOUT ME</p><h2 class="section-title">CURIOUS ABOUT CODE.<br><span>DRIVEN TO BUILD.</span></h2><p>Hi, I'm Akshita Katyal, a final-year B.Tech Computer Science and Engineering student at Vellore Institute of Technology (VIT), Bhopal, graduating in May 2027 (expected).</p><p>I enjoy building full-stack products and AI-powered applications with Java, Spring Boot, Python, FastAPI, React and PostgreSQL. I'm interested in scalable REST APIs, retrieval-augmented generation and hands-on problem solving.</p><div class="stats"><div><strong>8.46<span>/10</span></strong><small>VIT CGPA</small></div><div><strong>02</strong><small>FEATURED PROJECTS</small></div><div><strong>2027</strong><small>EXPECTED GRADUATION</small></div></div><a class="btn btn-primary" href="#contact">GET IN TOUCH <span>↗</span></a></div>
+      </div>
+    </section>
+
+    <section class="section projects-section" id="projects"><div class="container"><div class="section-top"><div><p class="section-kicker">02 / SELECTED WORK</p><h2 class="section-title">RECENT <span>PROJECTS.</span></h2></div><p class="section-aside">Two full-stack applications spanning AI-assisted learning and business analytics.</p></div><div class="projects-grid featured-projects">
+      <article class="project-card"><div class="project-image"><img src="assets/ai-interview-coach.svg" alt="Illustration of an AI interview coaching dashboard" loading="lazy" /></div><div class="project-info"><div><h3>AI Interview Coach</h3><p>REACT · SPRING BOOT · FASTAPI · RAG</p></div><a href="https://github.com/Akshita-0405/AI-Interview-Coach" target="_blank" rel="noopener noreferrer" class="round-arrow" aria-label="View AI Interview Coach on GitHub">↗</a></div><p class="project-summary">Mock interviews, resume ATS analysis, role-specific question generation and structured AI feedback, with PostgreSQL history.</p><a class="project-text-link" href="https://github.com/Akshita-0405/AI-Interview-Coach" target="_blank" rel="noopener noreferrer">VIEW SOURCE CODE ↗</a></article>
+      <article class="project-card"><div class="project-image"><img src="assets/financial-dashboard.svg" alt="Illustration of a dark financial analytics dashboard" loading="lazy" /></div><div class="project-info"><div><h3>Financial Dashboard</h3><p>NODE.JS · EXPRESS · MONGODB · CHART.JS</p></div><a href="https://github.com/Akshita-0405/Financial-Dashboard-" target="_blank" rel="noopener noreferrer" class="round-arrow" aria-label="View Financial Dashboard on GitHub">↗</a></div><p class="project-summary">A small-business overview of payments, inventory and revenue, including automated status tracking and interactive charts.</p><a class="project-text-link" href="https://github.com/Akshita-0405/Financial-Dashboard-" target="_blank" rel="noopener noreferrer">VIEW SOURCE CODE ↗</a></article>
+    </div></div></section>
+
+    <section class="section journal-section" id="journal"><div class="container"><div class="section-top"><div><p class="section-kicker">03 / THE JOURNAL</p><h2 class="section-title">FROM THE <span>DEV JOURNAL.</span></h2></div><p class="section-aside">Project walkthroughs and technical notes based on the technologies and work in my resume.</p></div><div class="journal-toolbar"><div class="filter-tabs" id="categoryFilters" role="group" aria-label="Filter posts by category"><button type="button" class="filter active" data-category="All" aria-pressed="true">ALL POSTS</button><button type="button" class="filter" data-category="AI" aria-pressed="false">AI / ML</button><button type="button" class="filter" data-category="Backend" aria-pressed="false">BACKEND</button><button type="button" class="filter" data-category="Projects" aria-pressed="false">PROJECTS</button></div><label class="search-field"><span aria-hidden="true">⌕</span><input type="search" id="postSearch" placeholder="Search stories..." aria-label="Search blog posts" /></label></div><div class="blog-grid" id="blogGrid" aria-live="polite"></div><div class="empty-state" id="emptyState" hidden><h3>No stories found.</h3><p>Try another search or choose a different category.</p><button class="btn btn-outline" id="resetFilters">CLEAR FILTERS</button></div><div class="load-more-wrap"><button id="loadMore" class="btn btn-outline" type="button">LOAD MORE STORIES <span>↓</span></button></div></div></section>
+
+    <section class="section services-section" id="skills"><div class="container"><p class="section-kicker">04 / TECH STACK</p><h2 class="section-title">TECHNICAL <span>SKILLS.</span></h2><div class="services-grid skills-grid"><div class="service-card"><span class="service-number">01</span><div class="service-icon">⌘</div><h3>LANGUAGES & FRONTEND</h3><p>Java, Python, JavaScript (ES6), SQL, HTML5, CSS3, React.js, Bootstrap, Chart.js and Recharts.</p></div><div class="service-card"><span class="service-number">02</span><div class="service-icon">◈</div><h3>BACKEND & DATABASES</h3><p>Spring Boot, FastAPI, Node.js, Express.js, REST APIs, microservices, JWT, PostgreSQL and MongoDB.</p></div><div class="service-card"><span class="service-number">03</span><div class="service-icon">✳</div><h3>AI & DEVELOPER TOOLS</h3><p>RAG, LLMs, Gemini API, FAISS, Sentence-Transformers, Git, GitHub, Postman, Linux, Vite and Maven.</p></div></div>
+      <div class="credentials-grid"><div class="credentials-card"><p class="section-kicker">EDUCATION</p><h3>Vellore Institute of Technology</h3><p>B.Tech, Computer Science & Engineering · Bhopal</p><p>CGPA: 8.46/10 · Expected May 2027</p><h3>Bharti Public School</h3><p>Class XII: 84% · Class X: 92% · 2023</p></div><div class="credentials-card"><p class="section-kicker">CERTIFICATIONS</p><p><strong>AWS Skill Builder:</strong> Cloud Practitioner Essentials, Technical Essentials, CLF-C02 Practice Questions</p><p><strong>ServiceNow:</strong> Agentic AI, Automated Test Framework (ATF)</p><p><strong>NPTEL:</strong> Introduction to Machine Learning, Market Analytics</p><p><strong>Coursera:</strong> Bits and Bytes of Computer Networking</p></div><div class="credentials-card"><p class="section-kicker">BEYOND THE CODE</p><p>Adobe Hackathon, Myntra We For She Hackathon and college hackathons.</p><p>VITBMUN and school MUN participation; formerly zonal head of a school singing group.</p><p>LeetCode problem-solving practice and Algo University Graph and Dynamic Programming camps.</p></div></div>
+      </div></section>
+
+    <section class="section contact-section" id="contact"><div class="container contact-grid"><div><p class="section-kicker">05 / SAY HELLO</p><h2 class="contact-heading">GOT AN IDEA?<br><span>LET'S TALK.</span></h2><p class="contact-intro">Open to software engineering opportunities, technical collaborations and interesting conversations. Feel free to reach out.</p><a class="contact-email" href="mailto:akkatyal05@gmail.com">akkatyal05@gmail.com ↗</a><p class="contact-hint">Bhopal, Madhya Pradesh, India · <a href="tel:+918383049570">+91 83830 49570</a></p></div><form id="contactForm" class="contact-form"><label for="name">YOUR NAME</label><input id="name" name="name" type="text" autocomplete="name" required placeholder="What should I call you?" maxlength="100" /><label for="email">EMAIL ADDRESS</label><input id="email" name="email" type="email" autocomplete="email" required placeholder="you@example.com" maxlength="200" /><label for="message">YOUR MESSAGE</label><textarea id="message" name="message" rows="5" required minlength="10" maxlength="3000" placeholder="Tell me what's on your mind..."></textarea><button class="btn btn-primary" type="submit">COMPOSE MESSAGE <span>↗</span></button><p id="formStatus" class="form-status" role="status">Opens your email app to send your message.</p></form></div></section>
+  </main>
+
+  <main id="articlePage" class="article-page" hidden><div class="container"><a href="#journal" class="back-link">← BACK TO THE JOURNAL</a><article id="articleContent"></article><div class="article-footer"><button class="btn btn-outline" id="copyArticleLink" type="button">COPY ARTICLE LINK ↗</button><a href="#journal" class="btn btn-primary">MORE STORIES →</a></div></div></main>
+
+  <footer class="site-footer"><div class="container footer-content"><a class="logo" href="#home"><span class="logo-box">A.</span><span>AKSHITA<span class="logo-period">.</span></span></a><p>Building software, exploring AI, and learning every day.</p><div><a href="#about">ABOUT</a><a href="#skills">SKILLS</a><a href="#projects">PROJECTS</a><a href="#journal">BLOG</a><a href="#contact">CONTACT</a><a href="#top">BACK TO TOP ↑</a></div></div><div class="container footer-bottom"><span>© <span id="footerYear"></span> AKSHITA KATYAL. ALL RIGHTS RESERVED.</span><span>DESIGNED WITH ♥</span></div></footer>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
